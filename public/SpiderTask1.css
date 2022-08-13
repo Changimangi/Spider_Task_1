@@ -1,0 +1,227 @@
+html{
+    background-image: url("background3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2vmin;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 5vmin;
+    text-align: center;
+}
+h3{
+    font-size: 4vmin;
+    text-align: center;
+}
+#overall{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#slno,#player1boxes,#player2boxes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    width: 10vw;
+    height: 6vh;
+    text-align: center;
+    font-size: 3vmin;
+}
+.player1,.player2{
+    background-image:url("water.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    box-shadow: 0 0 5px blue;
+    margin:5px;
+    height: 20vh;
+    width: 10vw;
+}
+button{
+    margin-top: 15vh;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 20px;
+    color: white;
+}
+button:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#number{
+    font-size: 5vmin;
+    margin: 10px;
+}
+#player1boxes .player1 div:nth-child(1),#player2boxes .player2 div:nth-child(1){
+    opacity: 0;
+    height:6vh;
+    width: 3vw;
+    border:1px solid rgb(233, 200, 79);
+    background-color: rgb(233, 200, 79);
+    border-radius: 100%;
+    margin-top: 1vh;
+    margin-left:3vw;
+}
+#player1boxes .player1 div:nth-child(2),#player2boxes .player2 div:nth-child(2){
+    opacity: 0;
+    height:1vh;
+    width:0.4vw;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: -4vh;
+    margin-left: 3.7vw;
+}
+#player1boxes .player1 div:nth-child(3),#player2boxes .player2 div:nth-child(3){
+    opacity: 0;
+    height:1vh;
+    width:0.4vw;
+    background-color: black;
+    border-radius: 100%;
+    margin-top: -1vh;
+    margin-left: 4.8vw
+}
+#player1boxes .player1 div:nth-child(4),#player2boxes .player2 div:nth-child(4){
+    opacity: 0;
+    height:0.5vh;
+    width:1vw;
+    background-color: black;
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+#player1boxes .player1 div:nth-child(5),#player2boxes .player2 div:nth-child(5){
+    opacity: 0;
+    height:6vh;
+    width:0.2vw;
+    background-color: black;
+    margin-top: 1.5vh;
+    margin-left: 4.5vw;
+}
+#player1boxes .player1 div:nth-child(6),#player2boxes .player2 div:nth-child(6){
+    opacity: 0;
+    height:5vmin;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-top: -6vh;
+    margin-left: 3.6vw;
+}
+#player1boxes .player1 div:nth-child(7),#player2boxes .player2 div:nth-child(7){
+    opacity: 0;
+    height:5vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-top: -4.8vh;
+    margin-left: 5.3vw;
+}
+#player1boxes .player1 div:nth-child(8),#player2boxes .player2 div:nth-child(8){
+    opacity: 0;
+    height:5vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-top: -0.5vh;
+    margin-left: 3.6vw;
+}
+#player1boxes .player1 div:nth-child(9),#player2boxes .player2 div:nth-child(9){
+    opacity: 0;
+    height:5vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-left: 5.3vw;
+    margin-top: -4.8vh;
+}
+#player1boxes .player1 div:nth-child(10),#player2boxes .player2 div:nth-child(10){
+    opacity: 0;
+    height:5vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-top: -7.2vh;
+    margin-left: 7.3vw;
+}
+#player1boxes .player1 div:nth-child(11),#player2boxes .player2 div:nth-child(11){
+    opacity: 0;
+    height:3vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-top: -4.5vh;
+    margin-left: 6vw;
+}
+#player1boxes .player1 div:nth-child(12),#player2boxes .player2 div:nth-child(12){
+    opacity: 0;
+    height:2vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-top: -0.9vh;
+    margin-left: 5.7vw;
+}
+#player1boxes .player1 div:nth-child(13),#player2boxes .player2 div:nth-child(13){
+    opacity: 0;
+    height:2vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(45deg);
+    margin-left: 6.2vw;   
+    margin-top:-2.5vh;
+}
+#player1boxes .player1 div:nth-child(14),#player2boxes .player2 div:nth-child(14){
+    opacity: 0;
+    height:3vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-top: -2vh;
+    margin-left: 7vw;
+    
+}
+#player1boxes .player1 div:nth-child(15),#player2boxes .player2 div:nth-child(15){
+    opacity: 0;
+    height:2vh;
+    width:0.2vw;
+    background-color: black;
+    transform: rotate(75deg);
+    margin-left: 7.7vw;
+    margin-top:-1.8vh;
+}
+#readytoshoot{
+    display: none;
+    margin-top: 15vh;
+    background-color: blue;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 20px;
+    color: white;
+}
+#readytoshoot:hover{
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+#winner{
+    position:absolute;
+    height: 0vh;
+    width: 0vw;
+    background-image: radial-gradient(rgb(100, 0, 105),rgb(71, 0, 194));
+    margin-top:-5vh;
+    display:none;
+    font-size: 4vmin;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    padding-top: 17vh;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+

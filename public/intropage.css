@@ -1,0 +1,33 @@
+html{
+    background-image: url("introbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    color: rgb(220, 1, 23);
+}
+#title{
+    font-size: 7vmin;
+    text-align: center;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#submitbutton{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px;
+    color:black;
+    background-color: aquamarine;
+}
+#submitbutton:hover{
+    color:aliceblue;
+    background-color:  blueviolet;
+}
+#player1name,#player2name{
+    height:6vh;
+    width:20vw;
+}
